@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baseline — Genomics for a Healthier Tomorrow</title>
+  <meta name="description" content="Accessible DNA testing and clinical genomics in Pakistan. Whole exome sequencing, cancer risk screening, and genetic counselling in Peshawar.">
+  <link rel="icon" type="image/png" href="assets/logo-purple.png">
+  <meta name="theme-color" content="#5e2292">
+
+  <!-- Open Graph / WhatsApp / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Baseline — Genomics for a Healthier Tomorrow">
+  <meta property="og:description" content="Accessible DNA testing and clinical genomics in Pakistan. Whole Exome Sequencing for PKR 120,000 with free genetic counselling in Peshawar.">
+  <meta property="og:image" content="assets/logo-purple.png">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Baseline — Genomics for a Healthier Tomorrow">
+  <meta name="twitter:description" content="Accessible DNA testing and clinical genomics in Pakistan. Whole Exome Sequencing with free genetic counselling.">
+  <meta name="twitter:image" content="assets/logo-purple.png">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Baseline Genomics",
+    "description": "Clinical genomics testing, Whole Exome Sequencing, and genetic counselling institution in Peshawar, Pakistan.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Peshawar",
+      "addressRegion": "Khyber Pakhtunkhwa",
+      "addressCountry": "PK"
+    },
+    "priceRange": "PKR 120,000",
+    "currenciesAccepted": "PKR",
+    "email": "info@baseline.pk"
+  }
+  </script>
+
+  <!-- Google Fonts: DM Sans & Source Serif 4 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ─── Reassuring Header Banner ─── -->
+  <div class="top-banner">
+    <div class="container top-banner-inner">
+      <span>Genomic testing born out of Precision Medicine Lab (PML) &amp; Project MOCCA</span>
+      <a href="#why-baseline" class="banner-link">Our story <span class="arrow">&rarr;</span></a>
+    </div>
+  </div>
+
+  <!-- ─── Site Navigation ─── -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="brand-link" aria-label="Baseline Home">
+        <img src="assets/logo-purple.png" alt="Baseline" class="brand-logo" width="160" height="48" fetchpriority="high">
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-menu">
+          <li><a href="#tests">Tests & Pricing</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#why-baseline">Why Baseline</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" class="btn-nav">Book Free Consultation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ─── Hero: Warm, Clear, Reassuring with Animated Ambient DNA ─── -->
+    <section class="hero">
+      <!-- Ambient Animated DNA Waves (Hardware Accelerated GPU) -->
+      <div class="hero-ambient-dna" aria-hidden="true">
+        <svg class="dna-wave-svg" viewBox="0 0 1440 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="dna-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#5e2292" stop-opacity="0.14" />
+              <stop offset="50%" stop-color="#9B5ED4" stop-opacity="0.22" />
+              <stop offset="100%" stop-color="#5e2292" stop-opacity="0.12" />
+            </linearGradient>
+            <linearGradient id="dna-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#9B5ED4" stop-opacity="0.1" />
+              <stop offset="50%" stop-color="#5e2292" stop-opacity="0.18" />
+              <stop offset="100%" stop-color="#9B5ED4" stop-opacity="0.08" />
+            </linearGradient>
+          </defs>
+          <!-- Strand 1 -->
+          <path class="wave-strand strand-a" d="M0,180 C240,60 480,300 720,180 C960,60 1200,300 1440,180" stroke="url(#dna-grad-1)" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- Strand 2 -->
+          <path class="wave-strand strand-b" d="M0,180 C240,300 480,60 720,180 C960,300 1200,60 1440,180" stroke="url(#dna-grad-2)" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- Connecting Nodes -->
+          <circle class="dna-node node-1" cx="240" cy="180" r="5" fill="#5e2292" opacity="0.4"/>
+          <circle class="dna-node node-2" cx="720" cy="180" r="5" fill="#9B5ED4" opacity="0.45"/>
+          <circle class="dna-node node-3" cx="1200" cy="180" r="5" fill="#5e2292" opacity="0.4"/>
+          <line x1="240" y1="120" x2="240" y2="240" stroke="#9B5ED4" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.35"/>
+          <line x1="480" y1="120" x2="480" y2="240" stroke="#9B5ED4" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.35"/>
+          <line x1="720" y1="120" x2="720" y2="240" stroke="#9B5ED4" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.35"/>
+          <line x1="960" y1="120" x2="960" y2="240" stroke="#9B5ED4" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.35"/>
+          <line x1="1200" y1="120" x2="1200" y2="240" stroke="#9B5ED4" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.35"/>
+        </svg>
+      </div>
+
+      <div class="container hero-inner">
+        <h1 class="hero-title reveal-item">
+          Clear answers from your DNA.<br>
+          For you, your family, and your doctor.
+        </h1>
+        <p class="hero-description reveal-item">
+          We bring advanced next-generation genetic testing to Pakistan — without overseas delays, high costs, or confusing medical jargon. We help you and your physician make confident decisions with free genetic counselling every step of the way.
+        </p>
+
+        <div class="hero-actions reveal-item">
+          <a href="#contact" class="btn btn-primary">Talk to a Genetic Counselor</a>
+          <a href="#tests" class="btn btn-outline">Explore Tests &amp; Pricing</a>
+          <a href="https://wa.me/923000000000?text=Hello%20Baseline%2C%20I%20would%20like%20to%20ask%20about%20genetic%20testing." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-inline">
+            <svg class="btn-wa-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.455 5.711 1.456h.005c6.554 0 11.89-5.336 11.893-11.893a11.821 11.821 0 00-3.48-8.414z"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        <!-- Metric highlights: clean, elegant cards with staggered hover -->
+        <div class="hero-metrics stagger-group">
+          <div class="metric-card reveal-card">
+            <span class="metric-num">PKR 120,000</span>
+            <span class="metric-title">Whole Exome Sequencing</span>
+            <span class="metric-desc">Complete coding DNA screen</span>
+          </div>
+          <div class="metric-card reveal-card">
+            <span class="metric-num">4–6 Weeks</span>
+            <span class="metric-title">Rapid Turnaround</span>
+            <span class="metric-desc">No months of overseas waiting</span>
+          </div>
+          <div class="metric-card reveal-card">
+            <span class="metric-num">Free</span>
+            <span class="metric-title">Genetic Counselling</span>
+            <span class="metric-desc">Pre & post-test doctor guidance</span>
+          </div>
+          <div class="metric-card reveal-card">
+            <span class="metric-num">Peshawar</span>
+            <span class="metric-title">Local Care & Pickup</span>
+            <span class="metric-desc">Gentle swab or simple blood draw</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Interactive Test Finder: Simple & Lively ─── -->
+    <section class="section section-light" id="tests">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Test Portfolio</span>
+          <h2 class="section-title">Find the right genetic test for you</h2>
+          <p class="section-subtitle">
+            Whether you are screening for family cancer risk, seeking answers for a child, or managing patient care, select your need below.
+          </p>
+        </div>
+
+        <!-- Test selector tabs with fluid active indicator -->
+        <div class="test-tabs reveal-on-scroll" role="tablist">
+          <button class="test-tab active" role="tab" aria-selected="true" data-tab="exome">
+            Whole Exome
+          </button>
+          <button class="test-tab" role="tab" aria-selected="false" data-tab="cancer">
+            Cancer Risk
+          </button>
+          <button class="test-tab" role="tab" aria-selected="false" data-tab="pediatric">
+            Children & Rare Conditions
+          </button>
+          <button class="test-tab" role="tab" aria-selected="false" data-tab="doctors">
+            For Doctors & Clinics
+          </button>
+          <button class="test-tab" role="tab" aria-selected="false" data-tab="research">
+            For Researchers
+          </button>
+        </div>
+
+        <!-- Tab Panes with smooth cross-fade animation -->
+        <div class="tab-content-wrapper reveal-on-scroll">
+          <!-- Pane 1: Whole Exome -->
+          <div class="tab-pane active" id="pane-exome">
+            <div class="test-spotlight">
+              <div class="test-spotlight-main">
+                <span class="pill-featured">Most Comprehensive</span>
+                <h3>Clinical Whole Exome Sequencing (WES)</h3>
+                <p class="spotlight-lede">
+                  Reads all ~20,000 protein-coding genes in one single test. Perfect when a diagnosis is uncertain, or when symptoms could be caused by many different genes.
+                </p>
+                <div class="spotlight-points">
+                  <div class="point-item">
+                    <strong>Who it is for:</strong> Families with undiagnosed developmental conditions, neurological concerns, or complex inherited disorders.
+                  </div>
+                  <div class="point-item">
+                    <strong>Options:</strong> Single patient (proband) or Trio Exome (patient + both biological parents for higher diagnostic accuracy).
+                  </div>
+                  <div class="point-item">
+                    <strong>Sample type:</strong> Small blood draw (3–5 mL in EDTA tube) or gentle buccal cheek swab.
+                  </div>
+                </div>
+              </div>
+              <div class="test-spotlight-side">
+                <div class="price-box">
+                  <span class="price-label">All-inclusive fee</span>
+                  <span class="price-val">PKR 120,000</span>
+                  <span class="price-sub">Free reanalysis & counselling included</span>
+                </div>
+                <div class="meta-row">
+                  <span>Turnaround:</span> <strong>4 to 6 weeks</strong>
+                </div>
+                <div class="meta-row">
+                  <span>Counselling:</span> <strong>Pre & post-test included</strong>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-block" data-prefill="Whole Exome Sequencing">Ask About This Test</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 2: Cancer -->
+          <div class="tab-pane" id="pane-cancer">
+            <div class="test-spotlight">
+              <div class="test-spotlight-main">
+                <span class="pill-featured">Prevention & Early Detection</span>
+                <h3>Hereditary Cancer Risk Panels</h3>
+                <p class="spotlight-lede">
+                  Identifies inherited genetic mutations that increase the lifetime risk of breast, ovarian, colorectal, and other cancers. Knowledge empowers early screening and preventive action.
+                </p>
+                <div class="spotlight-points">
+                  <div class="point-item">
+                    <strong>Key genes tested:</strong> BRCA1, BRCA2, PALB2, ATM, CHEK2, Lynch syndrome genes (MLH1, MSH2, MSH6, PMS2), and multi-cancer panels.
+                  </div>
+                  <div class="point-item">
+                    <strong>Who it is for:</strong> Individuals with a personal or strong family history of cancer, early-onset diagnosis, or multiple affected relatives.
+                  </div>
+                  <div class="point-item">
+                    <strong>Family screening:</strong> Cascade testing recommendations to protect at-risk siblings and children.
+                  </div>
+                </div>
+              </div>
+              <div class="test-spotlight-side">
+                <div class="price-box">
+                  <span class="price-label">Targeted panels</span>
+                  <span class="price-val">Affordable</span>
+                  <span class="price-sub">Tailored to clinical indication</span>
+                </div>
+                <div class="meta-row">
+                  <span>Turnaround:</span> <strong>3 to 4 weeks</strong>
+                </div>
+                <div class="meta-row">
+                  <span>Doctor report:</span> <strong>NCCN-aligned actionable advice</strong>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-block" data-prefill="Hereditary Cancer Panel">Inquire About Cancer Screening</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 3: Pediatric -->
+          <div class="tab-pane" id="pane-pediatric">
+            <div class="test-spotlight">
+              <div class="test-spotlight-main">
+                <span class="pill-featured">Compassionate Family Care</span>
+                <h3>Rare Pediatric & Inherited Conditions</h3>
+                <p class="spotlight-lede">
+                  Ending the prolonged "diagnostic odyssey." When children face developmental delays, seizures, or metabolic concerns, a precise genetic answer replaces guesswork with targeted care.
+                </p>
+                <div class="spotlight-points">
+                  <div class="point-item">
+                    <strong>Gentle sampling:</strong> Painless buccal cheek swab available for infants and toddlers who find blood draws difficult.
+                  </div>
+                  <div class="point-item">
+                    <strong>Consanguinity care:</strong> Specialized analysis for recessive conditions common in Khyber Pakhtunkhwa and northern Pakistan.
+                  </div>
+                  <div class="point-item">
+                    <strong>Future planning:</strong> Carrier status testing to help families make informed future reproductive decisions.
+                  </div>
+                </div>
+              </div>
+              <div class="test-spotlight-side">
+                <div class="price-box">
+                  <span class="price-label">Exome & Trio</span>
+                  <span class="price-val">PKR 120,000</span>
+                  <span class="price-sub">Family Trio packages available</span>
+                </div>
+                <div class="meta-row">
+                  <span>Guidance:</span> <strong>Compassionate genetic counselling</strong>
+                </div>
+                <div class="meta-row">
+                  <span>Reanalysis:</span> <strong>Free lifelong variant updates</strong>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-block" data-prefill="Pediatric & Rare Conditions">Schedule Pediatric Consultation</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 4: Doctors -->
+          <div class="tab-pane" id="pane-doctors">
+            <div class="test-spotlight">
+              <div class="test-spotlight-main">
+                <span class="pill-featured">Doctor Partnership</span>
+                <h3>For Oncologists, Pediatricians & Specialists</h3>
+                <p class="spotlight-lede">
+                  Think of Baseline as your hospital's in-house genomics department. We provide actionable, physician-centred reports and direct phone consultations for complex cases.
+                </p>
+                <div class="spotlight-points">
+                  <div class="point-item">
+                    <strong>Custom panels at same cost:</strong> Request specific gene sets for your specialty without surcharge.
+                  </div>
+                  <div class="point-item">
+                    <strong>Case reviews:</strong> Direct access to our clinical bioinformatician in Peshawar to discuss borderline variants (VUS).
+                  </div>
+                  <div class="point-item">
+                    <strong>Physician CME:</strong> Regular genomic literacy workshops and clinical case conferences for hospital departments.
+                  </div>
+                </div>
+              </div>
+              <div class="test-spotlight-side">
+                <div class="price-box">
+                  <span class="price-label">Clinician model</span>
+                  <span class="price-val">Direct Partner</span>
+                  <span class="price-sub">No overseas broker friction</span>
+                </div>
+                <div class="meta-row">
+                  <span>Reporting:</span> <strong>ACMG/AMP compliant</strong>
+                </div>
+                <div class="meta-row">
+                  <span>Sample pickup:</span> <strong>Coordinated in Peshawar</strong>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-block" data-prefill="Doctor Partnership">Connect With Clinical Lead</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 5: Research -->
+          <div class="tab-pane" id="pane-research">
+            <div class="test-spotlight">
+              <div class="test-spotlight-main">
+                <span class="pill-featured">Academic & Biotech</span>
+                <h3>Bioinformatics & Sequencing for Researchers</h3>
+                <p class="spotlight-lede">
+                  Complete genomics pipelines for universities, clinical trials, and biotech labs. We help you publish high-impact science with full data ownership.
+                </p>
+                <div class="spotlight-points">
+                  <div class="point-item">
+                    <strong>Full raw data delivery:</strong> FASTQ, aligned BAM/CRAM, and annotated VCF files with zero lock-in.
+                  </div>
+                  <div class="point-item">
+                    <strong>Scope:</strong> Human disease cohorts, infectious diseases, microbial metagenomics, and plant genetics.
+                  </div>
+                  <div class="point-item">
+                    <strong>Academic collaboration:</strong> Method write-ups, publication-quality figures, and grant co-application support.
+                  </div>
+                </div>
+              </div>
+              <div class="test-spotlight-side">
+                <div class="price-box">
+                  <span class="price-label">Research rates</span>
+                  <span class="price-val">Institutional</span>
+                  <span class="price-sub">Discounted for academic cohorts</span>
+                </div>
+                <div class="meta-row">
+                  <span>Pipelines:</span> <strong>BWA, GATK, DeepVariant</strong>
+                </div>
+                <div class="meta-row">
+                  <span>Turnaround:</span> <strong>Fast cohort batching</strong>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-block" data-prefill="Research Project">Discuss Research Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── How It Works: 3 Simple Steps ─── -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Simple & Compassionate</span>
+          <h2 class="section-title">How genetic testing works with us</h2>
+          <p class="section-subtitle">
+            We have removed the stress and confusion. Here is the simple 3-step journey.
+          </p>
+        </div>
+
+        <div class="steps-grid stagger-group">
+          <div class="step-card reveal-card">
+            <div class="step-badge">1</div>
+            <h3>Free Consultation</h3>
+            <p>
+              Speak with our genetic counselor by phone or WhatsApp. We listen to your family history, answer your questions, and suggest the right test.
+            </p>
+            <span class="step-tag">No obligation</span>
+          </div>
+
+          <div class="step-card reveal-card">
+            <div class="step-badge">2</div>
+            <h3>Simple Local Sample</h3>
+            <p>
+              A quick blood sample or gentle cheek swab collected locally in Peshawar. No overseas couriers, no customs hold-ups, no lost packages.
+            </p>
+            <span class="step-tag">Gentle swab available</span>
+          </div>
+
+          <div class="step-card reveal-card">
+            <div class="step-badge">3</div>
+            <h3>Clear Results & Support</h3>
+            <p>
+              In 4–6 weeks, receive a doctor-ready report explained in plain language. We sit down with you and your physician to walk through every finding.
+            </p>
+            <span class="step-tag">Free follow-up included</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Why Baseline (Comparison & Advantages) ─── -->
+    <section class="section section-light" id="why-baseline">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">The Baseline Difference</span>
+          <h2 class="section-title">Why families and doctors choose Baseline</h2>
+          <p class="section-subtitle">
+            Until now, Pakistani patients faced astronomical fees, 3-month overseas delays, and technical PDFs no one would explain. We changed that.
+          </p>
+        </div>
+
+        <!-- Comparison side-by-side with staggered entrance -->
+        <div class="comparison-cards stagger-group">
+          <!-- Baseline Card -->
+          <div class="comp-card comp-baseline reveal-card">
+            <div class="comp-header">
+              <span class="comp-badge">The Baseline Way</span>
+              <h3>Baseline Genomics</h3>
+              <p>Peshawar, Pakistan &bull; Local team, international sequencing</p>
+            </div>
+            <ul class="comp-features">
+              <li>
+                <strong>PKR 120,000 exome fee:</strong> Fair, transparent pricing with no hidden charges.
+              </li>
+              <li>
+                <strong>4–6 weeks turnaround:</strong> Fast answers when medical decisions cannot wait.
+              </li>
+              <li>
+                <strong>Local care in Peshawar:</strong> Walk in, drop off samples, or speak face-to-face.
+              </li>
+              <li>
+                <strong>Free genetic counselling:</strong> Pre & post-test guidance for patients and families.
+              </li>
+              <li>
+                <strong>Free long-term reanalysis:</strong> As medical science updates, we re-check your data at no cost.
+              </li>
+              <li>
+                <strong>Doctor-friendly reports:</strong> Tailored specifically for treating physicians.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Traditional Overseas Card -->
+          <div class="comp-card comp-traditional reveal-card">
+            <div class="comp-header">
+              <span class="comp-badge-muted">Traditional Approach</span>
+              <h3>Overseas Broker Labs</h3>
+              <p>Samples shipped abroad through third-party agents</p>
+            </div>
+            <ul class="comp-features">
+              <li>
+                <span>PKR 154,000 – PKR 225,000+</span> for the same exome test.
+              </li>
+              <li>
+                <span>10–14 weeks waiting</span> due to overseas shipping and customs delays.
+              </li>
+              <li>
+                <span>No local physical team</span> in Peshawar to assist you or your doctor.
+              </li>
+              <li>
+                <span>Genetic counselling not included</span> or charged as an expensive add-on.
+              </li>
+              <li>
+                <span>Reanalysis unavailable</span> or requires paying for a full new test.
+              </li>
+              <li>
+                <span>Dense overseas PDF</span> delivered with zero clinical dialogue.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Team Section: Human, Credible, Grounded ─── -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Clinical Team</span>
+          <h2 class="section-title">The people caring for your family's health</h2>
+          <p class="section-subtitle">
+            Alumni of Precision Medicine Lab (PML) who delivered Pakistan’s first national precision medicine pilot. We work together under one roof in Peshawar.
+          </p>
+        </div>
+
+        <div class="team-cards-grid stagger-group">
+          <div class="member-card reveal-card">
+            <div class="member-avatar">MS</div>
+            <h3>Dr. Madina Shirdel</h3>
+            <span class="member-role">Clinical Lead & Genetic Counselor</span>
+            <p>
+              Over 7 years of patient-facing clinical experience. Dedicated to guiding families through genetic results with empathy, clarity, and practical medical next steps.
+            </p>
+          </div>
+
+          <div class="member-card reveal-card">
+            <div class="member-avatar">AR</div>
+            <h3>Arsalan Riaz</h3>
+            <span class="member-role">Bioinformatics & Data Lead</span>
+            <p>
+              5+ years managing clinical genomic data. Specializes in turning billions of DNA letters into high-confidence, doctor-ready variant reports.
+            </p>
+          </div>
+
+          <div class="member-card reveal-card">
+            <div class="member-avatar">SS</div>
+            <h3>Saba Saeed</h3>
+            <span class="member-role">Wetlab Operations Lead</span>
+            <p>
+              Expert in clinical DNA isolation, quality control, and specimen integrity. Ensures every single patient sample is handled with meticulous scientific care.
+            </p>
+          </div>
+
+          <div class="member-card reveal-card">
+            <div class="member-avatar">FK</div>
+            <h3>Dr. Faisal Khan</h3>
+            <span class="member-role">Strategic Advisor &bull; DPhil (Oxford)</span>
+            <p>
+              Oxford DPhil and pioneer of precision medicine and bio-entrepreneurship in Pakistan. Founder of Precision Medicine Lab and leader of Project MOCCA.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── FAQ Section: Smooth Accordion Animation ─── -->
+    <section class="section section-light" id="faq">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Common Questions</span>
+          <h2 class="section-title">Everything you need to know</h2>
+          <p class="section-subtitle">
+            Here are honest, simple answers to questions patients and doctors frequently ask us.
+          </p>
+        </div>
+
+        <div class="faq-accordion reveal-on-scroll">
+          <details class="faq-item" open>
+            <summary class="faq-quest">
+              <span>Will the test hurt, and how is the sample collected?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-ans-wrapper">
+              <div class="faq-ans">
+                <p>
+                  Not at all. For adults and older children, a standard small blood draw (3–5 mL, just like a routine blood test) is done by our gentle phlebotomist in Peshawar. For babies, young children, or anyone nervous about needles, we also offer a gentle cheek swab that is completely painless and takes less than a minute.
+                </p>
+              </div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-quest">
+              <span>What happens if the test finds a genetic mutation?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-ans-wrapper">
+              <div class="faq-ans">
+                <p>
+                  Finding a mutation is not a verdict — it is empowering information. Our clinical lead, Dr. Madina Shirdel, conducts a free post-test session to explain exactly what the result means. We work with your treating doctor to outline proven medical strategies: lifestyle adaptations, early preventive screenings, medication options, and guidance for your family.
+                </p>
+              </div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-quest">
+              <span>Why is Whole Exome Sequencing PKR 120,000 at Baseline?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-ans-wrapper">
+              <div class="faq-ans">
+                <p>
+                  Traditionally, labs in Pakistan ship samples to third-party commercial brokers abroad, adding shipping overhead, middleman markups, and currency surcharges. Because Baseline manages DNA processing, bioinformatics, and clinical interpretation directly with our in-house team in Peshawar, we pass those savings directly to patients.
+                </p>
+              </div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-quest">
+              <span>What is "Long-Term Reanalysis" and why is it free?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-ans-wrapper">
+              <div class="faq-ans">
+                <p>
+                  Sometimes a DNA change is labeled as a "Variant of Uncertain Significance" (VUS) because science hasn't seen enough cases yet. Over months and years, as international medical databases update, these variants get resolved. Other labs charge you for a whole new test; Baseline keeps your data securely archived and updates your findings for free as science advances.
+                </p>
+              </div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-quest">
+              <span>Is my genetic data safe and private?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-ans-wrapper">
+              <div class="faq-ans">
+                <p>
+                  Strictly confidential. Your personal name and identifying details are detached and replaced with an anonymous barcode before any computer analysis begins. Your DNA information is never sold, licensed, or shared with insurance companies or third parties.
+                </p>
+              </div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-quest">
+              <span>How can my doctor collaborate with Baseline?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-ans-wrapper">
+              <div class="faq-ans">
+                <p>
+                  Doctors can call, message on WhatsApp, or refer patients directly. We provide doctors with clear, actionable clinical reports (following international ACMG/AMP guidelines) and our bioinformatics team is always available for direct case conferences. We also design custom specialty panels for clinics at no extra charge.
+                </p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Contact & WhatsApp Section ─── -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal-on-scroll">
+          <div class="contact-left">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title">We are here to help you</h2>
+            <p class="contact-p">
+              Whether you are a patient looking for answers, a family seeking guidance, or a physician planning a test, reach out today. Our consultation is free and friendly.
+            </p>
+
+            <div class="contact-methods">
+              <div class="method-card">
+                <span class="method-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.455 5.711 1.456h.005c6.554 0 11.89-5.336 11.893-11.893a11.821 11.821 0 00-3.48-8.414z"/></svg>
+                </span>
+                <div>
+                  <strong>Chat on WhatsApp</strong>
+                  <p>Immediate replies from our clinical coordinator</p>
+                  <a href="https://wa.me/923000000000?text=Hello%20Baseline%2C%20I%20would%20like%20to%20ask%20about%20a%20genetic%20test." target="_blank" rel="noopener noreferrer" class="link-wa">
+                    Open WhatsApp Chat <span class="arrow">&rarr;</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="method-card">
+                <span class="method-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--purple-brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </span>
+                <div>
+                  <strong>Location</strong>
+                  <p>Peshawar, Khyber Pakhtunkhwa, Pakistan</p>
+                </div>
+              </div>
+
+              <div class="method-card">
+                <span class="method-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--purple-brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                </span>
+                <div>
+                  <strong>Email</strong>
+                  <p><a href="mailto:info@baseline.pk">info@baseline.pk</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <form class="simple-form" id="consultation-form" action="https://formspree.io/f/your-form-id" method="POST">
+              <h3 class="form-title">Request a Free Consultation</h3>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" required placeholder="Full Name" autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label for="phone">Phone / WhatsApp</label>
+                  <input type="tel" id="phone" name="phone" required placeholder="03XX XXXXXXX" autocomplete="tel">
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="email">
+              </div>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="role">I am a</label>
+                  <select id="role" name="role" required>
+                    <option value="patient" selected>Patient / Family Member</option>
+                    <option value="doctor">Doctor / Clinician</option>
+                    <option value="researcher">Researcher / Lab</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="test">Test of Interest</label>
+                  <select id="test" name="test">
+                    <option value="exome">Whole Exome Sequencing (PKR 120,000)</option>
+                    <option value="cancer">Cancer Risk Screening</option>
+                    <option value="pediatric">Children & Rare Diseases</option>
+                    <option value="doctor">Doctor Custom Panel</option>
+                    <option value="counselling">Genetic Counselling Only</option>
+                    <option value="other">Not Sure / Need Advice</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="message">How can we help you?</label>
+                <textarea id="message" name="message" rows="3" placeholder="Tell us briefly about what you are seeking answers for..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Send Consultation Request</button>
+              <div class="form-feedback" id="form-feedback" style="display: none;"></div>
+              <p class="form-guarantee">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align: -1px; margin-right: 3px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                Your health information is 100% confidential.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── Site Footer ─── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo-purple.png" alt="Baseline" class="footer-logo" width="140" height="42" loading="lazy">
+          <p class="footer-tagline">Genomics for a healthier tomorrow.</p>
+          <p class="footer-note">
+            Peshawar, Khyber Pakhtunkhwa, Pakistan.<br>
+            Affiliated with the Precision Medicine Lab (PML) heritage.
+          </p>
+        </div>
+        <div class="footer-links-col">
+          <h4>Tests &amp; Services</h4>
+          <ul>
+            <li><a href="#tests">Whole Exome Sequencing</a></li>
+            <li><a href="#tests">Hereditary Cancer Panels</a></li>
+            <li><a href="#tests">Rare Pediatric Conditions</a></li>
+            <li><a href="#tests">Doctor Custom Panels</a></li>
+            <li><a href="#tests">Bioinformatics</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>About &amp; Care</h4>
+          <ul>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#why-baseline">Why Baseline</a></li>
+            <li><a href="#team">Our Clinical Team</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="#contact">Contact &amp; WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Baseline Genomics. All rights reserved.</p>
+        <p class="footer-disclaimer">
+          Baseline provides clinical genomic testing and counselling in collaboration with licensed healthcare practitioners.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── Floating WhatsApp Fast-Action Button ─── -->
+  <a href="https://wa.me/923000000000?text=Hello%20Baseline%2C%20I%20would%20like%20to%20ask%20about%20genetic%20testing." target="_blank" rel="noopener noreferrer" class="floating-wa" aria-label="Chat on WhatsApp">
+    <svg class="wa-icon-svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.455 5.711 1.456h.005c6.554 0 11.89-5.336 11.893-11.893a11.821 11.821 0 00-3.48-8.414z"/></svg>
+    <span class="wa-tooltip">Chat with our Genetic Counselor</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
